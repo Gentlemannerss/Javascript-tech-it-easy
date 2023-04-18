@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.innerContainer {
+    flex-basis: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    padding: 3em;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    background-color: cadetblue;
+}
+
+.innerContainer > h1 {
+    color: white;
+}
+
+.soldbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    background-color: lightgray;
+    padding: 1em;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#tvSold {
+    padding: 0.8em;
+    color: green;
+    background-color: aquamarine;
+}
+
+#tvInventory {
+    padding: 0.8em;
+    color: blue;
+    background-color: lightblue;
+}
+
+#tvLeftToSell{
+    padding: 0.8em;
+    color: red;
+    background-color: indianred;
+}
