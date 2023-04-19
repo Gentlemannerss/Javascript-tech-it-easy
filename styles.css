@@ -29,7 +29,7 @@ body {
     background-color: cadetblue;
 }
 
-.innerContainer > h1 {
+.innerContainer > h1,h2 {
     color: white;
 }
 
