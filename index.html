@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="main.js" defer></script>
+    <script src="../../frontend-javascript-tech-it-easy-inleveren/JavaScript/ArrayMethods.js" defer></script>
+    <script src="../../frontend-javascript-tech-it-easy-inleveren/JavaScript/ElementInDom.js" defer></script>
+    <script src="../../frontend-javascript-tech-it-easy-inleveren/JavaScript/ArrayMethodAndFunctions.js" defer></script>
+    <script src="../../frontend-javascript-tech-it-easy-inleveren/JavaScript/Functions.js" defer></script>
     <title>Tech It Easy Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+<header></header>
+<main>
+    <div class="outerContainer">
+        <div class="innerContainer">
+            <h1>Product overview:</h1>
+            <div class="soldbar"><p>Number of TV's sold: <span id="tvSold"></span></p></div>
+            <div class="soldbar"><p>Number of TV's purchased: <span id="tvInventory"></span></p></div>
+            <div class="soldbar"><p>Number of TV's left to sell: <span id="tvLeftToSell"></span></p></div>
+            <h2>Brands: </h2>
+            <ul id="tvBrands"></ul>
+        </div>
+        <div class="innerContainer">
+            <h2>Product information:</h2>
+            <div class="soldbar" id="nameTV"><ul id="test"></ul></div>
+            <div class="soldbar" id="priceTV"></div>
+            <div class="soldbar" id="screenSize"></div>
+            <div class="soldbar" id="allInfo"></div>
+        </div>
+    </div>
+</main>
+<footer></footer>
 </body>
 </html>
